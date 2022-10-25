@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T14:20:16.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tK9MIPdtFKbwaT7tfZZ2" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-25T14:26:11.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jKw_Y8a84Chh7MG9VBHE" version="20.5.1" type="github" pages="2">
   <diagram id="URG8Zn5BEwI4Zal7OHFu" name="Page-1">
     <mxGraphModel dx="1102" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l47V7FRBKMvQzRHOTQuT" name="Register">
-    <mxGraphModel dx="1296" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1574" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,8 +103,11 @@
         <mxCell id="q0jzcN2fzwEdablnNgwh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-3" target="q0jzcN2fzwEdablnNgwh-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q0jzcN2fzwEdablnNgwh-3" value="Google / User" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="230" width="140" height="140" as="geometry" />
+        <mxCell id="q0jzcN2fzwEdablnNgwh-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-3" target="q0jzcN2fzwEdablnNgwh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-3" value="Google / User&amp;nbsp; / Register" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="225" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="q0jzcN2fzwEdablnNgwh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-5" target="q0jzcN2fzwEdablnNgwh-9">
           <mxGeometry relative="1" as="geometry" />
@@ -146,6 +149,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-31" value="Registered" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q0jzcN2fzwEdablnNgwh-24">
+          <mxGeometry x="-0.4982" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q0jzcN2fzwEdablnNgwh-11" value="Registered / Not" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="122.5" y="530" width="135" height="130" as="geometry" />
         </mxCell>
@@ -157,17 +165,57 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q0jzcN2fzwEdablnNgwh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-13" target="q0jzcN2fzwEdablnNgwh-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="q0jzcN2fzwEdablnNgwh-19" value="Register" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-13" target="q0jzcN2fzwEdablnNgwh-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="630" />
+              <mxPoint x="630" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="q0jzcN2fzwEdablnNgwh-13" value="Registered / Not" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="410" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-15" target="q0jzcN2fzwEdablnNgwh-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="600" />
+              <mxPoint x="810" y="600" />
+              <mxPoint x="810" y="250" />
+              <mxPoint x="630" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q0jzcN2fzwEdablnNgwh-15" value="Register Progress" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q0jzcN2fzwEdablnNgwh-18" value="Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="750" width="120" height="60" as="geometry" />
+        <mxCell id="q0jzcN2fzwEdablnNgwh-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-18" target="q0jzcN2fzwEdablnNgwh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-18" value="Validasi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-33" target="q0jzcN2fzwEdablnNgwh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="775" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-38" value="Not" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q0jzcN2fzwEdablnNgwh-35">
+          <mxGeometry x="-0.7792" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-37" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q0jzcN2fzwEdablnNgwh-33" target="q0jzcN2fzwEdablnNgwh-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-33" value="Validating Progress" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="710" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="q0jzcN2fzwEdablnNgwh-36" value="Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
